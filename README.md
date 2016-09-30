@@ -8,3 +8,12 @@ conditional logger
 ```cs
 Debug.Log("Player Level : " + player.level.ToString());
 ```
+위 코드는 컴파일 될 경우 아래와 같은 바이트코드로 변환됩니다.
+```MSIL
+ldstr "Player Level : "
+ldloc.0
+ldflda int32 TestObject/Player::level
+call instance string [mscorlib]System.Int32::ToString()
+call string [mscorlib]System.String::Concat(string, string)
+call void [UnityEngine]UnityEngine.Debug::Log(object)
+```
