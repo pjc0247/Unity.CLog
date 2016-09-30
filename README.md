@@ -17,3 +17,8 @@ call instance string [mscorlib]System.Int32::ToString()
 call string [mscorlib]System.String::Concat(string, string)
 call void [UnityEngine]UnityEngine.Debug::Log(object)
 ```
+
+CLog 를 사용하면
+----
+![a](log_enabled.png)<br>
+![b](log_disabled.png)<br>
