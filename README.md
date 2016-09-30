@@ -26,3 +26,8 @@ CLog 를 사용하면
 ![a](log_enabled.png)<br>
 
 ![b](log_disabled.png)<br>
+
+
+사용방법
+----
+![c](clog_menu.png)
